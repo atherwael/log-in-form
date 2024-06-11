@@ -1,26 +1,41 @@
 <!DOCTYPE html>
-
 <html>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>wp help</title>
+        <link rel="icon" href="icon.jpg">
+        <script src="https://kit.fontawesome.com/ffaaff8f81.js" crossorigin="anonymous"></script>
         <meta name="wp web" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="log.css">
     </head>
     <body>
             <form action="#">
-                <div class="pic"></div>
+                <div class="pic"> <img src="3fa.jpg" alt=""></div>
              <div class="logbox">
                 <h2>Log in to your account</h2>
-                <input type="email" placeholder="Email"><br>
-                <input type="password" placeholder="Password"><br>
+                <label for="email">
+                    <i class="fas fa-user-tie"></i>
+                    <input id="email" type="email" placeholder="Email">
+                </label><br>
+                
+                <label for="pass">
+                    <i id="password-icon" class="fas fa-lock"></i>
+                    <input type="password" placeholder="password">
+                </label><br>
+                
+            <div class="exten" >
+                
                 <span class="forget"><a href="">forget password?</a></span>
+
                 <span><input class="chek" type="checkbox">Remember me</span><br>
+
+            </div>
                 <button type="submit">Log in</button>
+
              </div>
             </form>
-        <script src="" async defer></script>
+        <script src="log.js" async defer></script>
     </body>
 </html>
